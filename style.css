@@ -1,0 +1,28 @@
+.bg {
+    background-image: url("bg2.avif");
+    position: fixed; /* Cover the entire view */
+    top: 0;;
+    left:0;
+    width: 50%;
+    height: 20%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+
+.main{
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image: url("bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px; /* Add some padding */
+    z-index: 1; /* Ensure it's above the background */
+    width: 80%; /* Or a fixed width, depending on your design needs */
+    max-width: 400px;
+    color:rgb(97, 18, 18);
+    text-align: center;
+}
